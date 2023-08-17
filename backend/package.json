@@ -1,0 +1,32 @@
+{
+  "name": "register-user-recipes-backend",
+  "version": "1.0.0",
+  "description": "program test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name knowledge-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "register-user-recipes"
+  },
+  "author": "vinicius hemming",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "knex": "^2.4.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.1.0",
+    "node-schedule": "^2.1.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.10.0",
+    "pm2": "^5.3.0"
+  }
+}
